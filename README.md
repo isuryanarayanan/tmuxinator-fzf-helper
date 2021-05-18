@@ -1,2 +1,3 @@
-# tmuxinator-fzf-helper
-Helper script for tmuxinator commands 
+# Tmuxinator helper
+
+Helper script for tmuxinator commands using FZF
