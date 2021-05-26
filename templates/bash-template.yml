@@ -1,0 +1,9 @@
+name: _projectname 
+root: /_projectpath/
+
+windows:
+  - editor:
+      panes:
+        - cmatrix && vim
+        - git status
+ 

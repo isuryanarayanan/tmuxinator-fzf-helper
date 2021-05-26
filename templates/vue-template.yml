@@ -1,0 +1,12 @@
+name: _projectname 
+root: /_projectpath/
+
+windows:
+  - editor:
+      panes:
+        - cmatrix && vim
+  - server:
+      layout: main-vertical
+      panes:
+        - cd _projectname/ && npm run dev
+        - git status
