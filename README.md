@@ -20,6 +20,6 @@ if params are passed it will be to fuzzy search
 
 - Projects
   - `tmuxinator-helper.sh --new <project name>`
-  - ` tmuxinator-helper.sh --new <project name> --template <template name>`
+  - `tmuxinator-helper.sh --new <project name> --template <template name>`
   - `tmuxinator-helper.sh --edit <project name>`
   - `tmuxinator-helper.sh --delete <project name>`

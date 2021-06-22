@@ -29,9 +29,9 @@ then
 	$SUDO apt-get install fzf;
 fi
 
-SESSION='(close)'
+SESSION='-close-'
 
-while echo $SESSION | grep '(close)'
+while echo $SESSION | grep '-close-'
 do
 
 	# In edit mode
@@ -95,6 +95,7 @@ do
 		if echo $SESSION | grep '(close)'; then
 			CLOSESESSION=(${SESSION// / })
 			tmuxinator stop ${CLOSESESSION[0]};
+			SESSION='-close-'
 		fi
 
 		# Session starter
